@@ -1,0 +1,6 @@
+python3 pacman.py
+python3 pacman.py -h
+python3 pacman.py -l smallClassic -p KeyboardAgent
+python3 pacman.py -t -l smallClassic -p GreedyAgent
+python3 pacman.py -q -l smallClassic -p GreedyAgent -n 1
+python3 pacman.py -q -l smallClassic -p ClassifierAgent -n 1
